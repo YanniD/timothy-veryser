@@ -1,1 +1,11 @@
-body{background-color: lightblue}
+.navbar-nav > li{
+  margin-right: 5vw;
+}
+
+.bg-header{
+  background: linear-gradient(#404f4e, #697e7e);
+}
+
+.colour-text-header{
+  color: #869090;
+}
