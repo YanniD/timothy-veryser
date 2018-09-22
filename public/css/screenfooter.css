@@ -20,3 +20,8 @@
 .link-top{
   margin-top: 1rem;
 }
+@media (min-width: 576px) {
+.link-margin{
+  align-items: center;
+}
+}
