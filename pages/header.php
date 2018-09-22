@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="/public/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/public/css/screen.css">
+    <link rel="stylesheet" type="text/css" href="/public/css/screenfooter.css">
     <title>Document</title>
 </head>
 <body>
