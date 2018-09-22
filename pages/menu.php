@@ -1,4 +1,7 @@
-<p> menu</p>
-<ul>
-<li>sffsf</li>
-</ul>
+
+  <div class="row">
+    <div class="col-lg">
+        <div id='photo_timothy'>
+        </div>
+      </div>
+</div>

@@ -6,8 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="/public/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="/public/css/screen.css">
-    <link rel="stylesheet" type="text/css" href="/public/css/screenfooter.css">
+    <link rel="stylesheet" type="text/css" href="/public/css/screenHeader.css">
     <title>Document</title>
 </head>
 <body>
@@ -20,7 +19,7 @@
 
   <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
-      <li class="nav-item ml-auto colour-text-header">
+      <li class="nav-item ml-auto ">
         <a class="nav-link colour-text-header" href="#">menu</a>
       </li>
       <li class="nav-item ml-auto">
