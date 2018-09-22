@@ -12,6 +12,8 @@
 .credit-height{
   font-size: 10px;
   margin-top: 1rem;
+  display: flex;
+  justify-content: center;
 }
 .image-size{
   width: 25px;
