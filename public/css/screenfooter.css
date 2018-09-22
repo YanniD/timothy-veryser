@@ -20,6 +20,16 @@
 .link-top{
   margin-top: 1rem;
 }
+
+#timothyvinyl{
+  width: 20rem;
+}
+.about-height{
+  margin-top: 3rem;
+}
+.about-height-img{
+  margin-top: 2.4rem;
+}
 @media (min-width: 576px) {
 .link-margin{
   align-items: center;
