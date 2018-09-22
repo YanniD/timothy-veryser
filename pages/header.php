@@ -9,6 +9,8 @@
     <link rel="stylesheet" type="text/css" href="/public/css/screenHeader.css">
     <link rel="stylesheet" type="text/css" href="/public/css/screenfooter.css">
     <link rel="stylesheet" type="text/css" href="/public/css/screenMenu.css">
+    <link rel="stylesheet" type="text/css" href="/public/css/reset.css">
+
     <title>Document</title>
 </head>
 <body>
