@@ -1,22 +1,10 @@
 
   <footer class="page-footer font-small blue pt-4 footer-color">
-
-      <div class="container-fluid text-center text-md-left">
-
-        <div class="row">
-          <div class="col-md-6 mt-md-0 mt-3 credit-baseline">
-            <p class="footer-text-color credit-height">design made by Tibo Schellens</p>
-            <p class="footer-text-color credit-height">programmed by yanni</p>
-
-          </div>
-
             <!-- Grid column -->
             <div class="col-lg-right ml-auto link-margin">
 
-              <!-- Links -->
-              <h5 class="text-uppercase footer-text-color">Social</h5>
-
-              <ul class="list-unstyled mr-auto">
+              <ul class="list-unstyled ml-auto">
+                <h5 class="text-uppercase footer-text-color link-margin">Social</h5>
                 <li class="link-top">
                   <a class="footer-text-color" href="#!"><img class="image-size" src="/public/assets/facebook.png" alt="facebook"> @TimothyVeryserOpera</a>
                 </li>

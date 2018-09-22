@@ -6,9 +6,12 @@
 }
 .link-margin{
   margin-right: 150px;
+  display: flex;
+  align-items: flex-end;
 }
 .credit-height{
   font-size: 10px;
+  margin-top: 1rem;
 }
 .image-size{
   width: 25px;
@@ -16,10 +19,4 @@
 }
 .link-top{
   margin-top: 1rem;
-}
-.credit-baseline{
-  display: flex;
-  justify-content: flex-end;
-  flex-flow: column;
-  margin-left: 25px;
 }
