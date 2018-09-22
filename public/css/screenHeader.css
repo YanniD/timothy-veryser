@@ -9,9 +9,3 @@
 .navbar-light .navbar-nav .nav-link{
   color:white;
 }
-
-#photo_timothy{
-  background: url("/public/assets/timothy.jpg");
-    background-repeat: no-repeat;
-    background-size: auto;
-}

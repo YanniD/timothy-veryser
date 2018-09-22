@@ -8,11 +8,12 @@
     <link rel="stylesheet" type="text/css" href="/public/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/public/css/screenHeader.css">
     <link rel="stylesheet" type="text/css" href="/public/css/screenfooter.css">
+    <link rel="stylesheet" type="text/css" href="/public/css/screenMenu.css">
     <title>Document</title>
 </head>
 <body>
-<header class='bg-header'>
-    <nav class="navbar navbar-expand-lg py-3 navbar-light ">
+<header>
+    <nav class="navbar-expand-lg py-3 navbar-nav fixed-top navbar-light bg-header">
 
   <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
