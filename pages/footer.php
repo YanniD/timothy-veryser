@@ -1,10 +1,12 @@
 
   <footer class="page-footer font-small blue pt-4 footer-color">
             <!-- Grid column -->
-            <div class="col-lg-right ml-auto link-margin">
+            <div class="row justify-content-center">
+
+            <div class="col-9 col-sm-7 col-lg-3 ml-auto">
 
               <ul class="list-unstyled ml-auto">
-                <h5 class="text-uppercase footer-text-color link-margin">Social</h5>
+                <h2 class="text-center text-uppercase footer-text-color link-margin ">Social</h2>
                 <li class="link-top">
                   <a class="footer-text-color" href="#!"><img class="image-size" src="/public/assets/facebook.png" alt="facebook"> @TimothyVeryserOpera</a>
                 </li>
@@ -16,8 +18,6 @@
             </div>
 
         </div>
-
-      </div>
 
       <!-- Copyright -->
       <div class="footer-copyright text-center py-3 footer-text-color credit-height">© 2018 Copyright: alctera graphics design
