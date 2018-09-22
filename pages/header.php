@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="/public/css/screenHeader.css">
     <link rel="stylesheet" type="text/css" href="/public/css/screenfooter.css">
     <link rel="stylesheet" type="text/css" href="/public/css/screenMenu.css">
+    <link rel="stylesheet" type="text/css" href="/public/css/screenabout.css">
 
 
     <title>Document</title>
