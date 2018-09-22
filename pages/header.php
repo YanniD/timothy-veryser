@@ -11,7 +11,7 @@
 </head>
 <body>
 <header class='bg-header'>
-    <nav class="navbar navbar-expand-lg py-3 navbar-light">
+    <nav class="navbar navbar-expand-lg py-3 navbar-light ">
 
   <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -19,8 +19,8 @@
 
   <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
-      <li class="nav-item ml-auto">
-        <a class="nav-link colour-text-header" href="#">menu <span class="sr-only">(current)</span></a>
+      <li class="nav-item ml-auto colour-text-header">
+        <a class="nav-link colour-text-header" href="#">menu</a>
       </li>
       <li class="nav-item ml-auto">
         <a class="nav-link colour-text-header" href="#">over</a>

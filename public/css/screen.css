@@ -6,6 +6,6 @@
   background: linear-gradient(#404f4e, #697e7e);
 }
 
-.colour-text-header{
-  color: #869090;
+.navbar-light .navbar-nav .nav-link{
+  color:white;
 }
