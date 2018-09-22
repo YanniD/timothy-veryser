@@ -4,3 +4,21 @@
 .footer-text-color{
   color: white;
 }
+.link-margin{
+  margin-right: 150px;
+}
+.credit-height{
+  font-size: 10px;
+}
+.image-size{
+  width: 25px;
+  height: 25px;
+}
+.link-top{
+  margin-top: 1rem;
+}
+.credit-baseline{
+  display: flex;
+  justify-content: flex-end;
+  flex-flow: column;
+}
