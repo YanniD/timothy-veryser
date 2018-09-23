@@ -18,12 +18,15 @@
             </div>
 
         </div>
-
-      <!-- Copyright -->
-      <div class="col-9 col-sm-7 col-lg-7 ml-auto">
-        <div class="footer-copyright text-center py-3 footer-text-color credit-height">© 2018 Copyright: alctera graphics design
+        <div class="row ">
+        <div class="col-12 col-sm-7 col-lg-12 ml-auto">
+          <div class="footer-copyright text-center py-3 footer-text-color credit-height">© 2018 Copyright: Alctera Graphics Design.
+          </div>
         </div>
       </div>
+
+      <!-- Copyright -->
+
 
 
       <!-- Copyright -->

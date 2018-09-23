@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="/public/css/screenfooter.css">
     <link rel="stylesheet" type="text/css" href="/public/css/screenMenu.css">
     <link rel="stylesheet" type="text/css" href="/public/css/screenabout.css">
+    <link rel="stylesheet" type="text/css" href="/public/css/screenVideos.css">
 
 
     <title>Document</title>

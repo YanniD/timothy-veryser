@@ -7,3 +7,14 @@
 .about-height-img{
   margin-top: 2.4rem;
 }
+
+@media (max-width: 767px)
+{
+    #timothyvinyl
+    {
+        display: none;
+    }
+    .about-height{
+      margin-top: 0rem;
+    }
+}

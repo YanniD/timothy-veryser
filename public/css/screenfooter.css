@@ -10,10 +10,11 @@
   align-items: flex-end;
 }
 .credit-height{
-  font-size: 10px;
+  font-size: 14px;
   margin-top: 1rem;
   display: flex;
   justify-content: center;
+  margin-right: 5%;
 }
 .image-size{
   width: 25px;
@@ -21,4 +22,11 @@
 }
 .link-top{
   margin-top: 1rem;
+}
+
+@media (max-width: 767px)
+{
+    .credit-height{
+      margin-left: 4%;
+    }
 }
