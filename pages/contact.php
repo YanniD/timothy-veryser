@@ -10,34 +10,14 @@
             <!-- We're going to place the form here in the next step -->
             <form id="contact-form" method="post" action="/index.php" role="form">
 
-                <div class="messages">
-                    <?php if (isset($_SESSION['messageOk'])) {
-                          ?><p>
-                            <?php echo $_SESSION['messageOk']; ?>
-                          </p>
-                          <?php
-                           session_unset();
-                          session_destroy();
-                        }
-                        if(isset($_SESSION["messageBad"])){
-                          ?> <p>
-
-                            <?php   echo $_SESSION['messageBad']; ?>
-                          </p>
-                          <?php
-
-                          session_unset();
-                         session_destroy();
-                        }
-                        ?>
-                </div>
+                <div class="messages"></div>
 
                 <div class="controls">
 
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label for="form_name">Voornaam *</label>
+                                <label for="kl">Voornaam *</label>
                                 <input id="form_name" type="text" name="name" class="form-control"
                                        placeholder="Geef uw voornaam op *" required="required"
                                        data-error="Voornaam vereist.">
@@ -86,6 +66,9 @@
                                           data-error="Laat een vraag of bericht achter aub ."></textarea>
                                 <div class="help-block with-errors"></div>
                             </div>
+                        </div>
+                        <div class="col-md-12">
+                          
                         </div>
                         <div class="col-md-12">
                             <input type="submit" name='submit' class="btn btn-success btn-send" value="Send message">

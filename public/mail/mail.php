@@ -30,19 +30,71 @@ $errorMessage = 'There was an error while submitting the form. Please try again 
 
 // if you are not debugging and don't need error reporting, turn this off by error_reporting(0);
 error_reporting(E_ALL & ~E_NOTICE);
+function validateEmail($email) {
+      return filter_var($email, FILTER_VALIDATE_EMAIL);
+   }
 
+function test_input($data) {
+  $data = trim($data);
+  $data = stripslashes($data);
+  $data = htmlspecialchars($data);
+  return $data;
+}
 try
 {
+  //  var_dump($_POST);
 
-    if(count($_POST) == 0) throw new \Exception('Form is empty');
-    if(isset($_POST['submit'])){
-      $emailText = "Je hebt een nieuw bericht van je contact form\n=============================\n";
+      $firstNameForm = test_input($_post['form_name']);
+      $lastNameForm = test_input($_post['form_lastname']);
+      $needForm = test_input($_post['form_need']);
+      $emailForm = test_input(validateEmail($_post['form_email']));
+      $messageForm = test_input($_post['form_message']);
 
-      foreach ($_POST as $key => $value) {
+
+
+
+      $emailText = "Je hebt een nieuw bericht van jouw website\n=============================\n";
+
+      /*foreach ($_POST as $key => $value) {
           // If the field exists in the $fields array, include it in the email
           if (isset($fields[$key])) {
               $emailText .= "$fields[$key]: $value\n";
           }
+      }*/
+
+      if(isset($firstNameForm)){
+        $emailText .= "Voornaam : " + $firstNameForm + "\n";
+      }
+      else{
+        throw new Exception('Voornaam is niet ingevulgd');
+      }
+
+      if(isset($lastNameForm)){
+        $emailText .= "achternaam : " + $lastNameForm + "\n";
+      }
+      else{
+        throw new Exception('achternaam is niet ingevuld');
+      }
+
+      if(isset($needForm)){
+        $emailText .= "categorie : " + $needForm + "\n";
+      }
+      else{
+        throw new Exception('categorie is niet ingevuld');
+      }
+
+      if(isset($emailForm)){
+        $emailText .= "email : " + $emailForm + "\n";
+      }
+      else{
+        throw new Exception('email is niet ingevuld');
+      }
+
+      if(isset($messageForm)){
+        $emailText .= "bericht : " + $messageForm;
+      }
+      else{
+        throw new Exception('bericht is niet ingevuld');
       }
 
       // All the neccessary headers for the email.
@@ -55,10 +107,16 @@ try
       // Send email
       mail($sendTo, $subject, $emailText, implode("\n", $headers));
 
-      $responseArray = array('type' => 'success', 'message' => $okMessage);
+      $responseArray = array('isSuccess' => true);
+
+      header("Content-Type: application/json");
+
+      echo json_encode($responseArray);
   }
-}
   catch (\Exception $e)
   {
       $responseArray = array('type' => 'danger', 'message' => $errorMessage);
+      echo json_encode($responseArray);
+      return;
   }
+?>

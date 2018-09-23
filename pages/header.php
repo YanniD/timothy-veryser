@@ -13,6 +13,7 @@
     <link rel="stylesheet" type="text/css" href="/css/screenabout.css">
     <link rel="stylesheet" type="text/css" href="/css/screenVideos.css">
     <link rel="stylesheet" type="text/css" href="/css/screenContact.css">
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 
 
     <title>Document</title>

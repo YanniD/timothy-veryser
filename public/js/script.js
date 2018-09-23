@@ -12,13 +12,28 @@ function init() {
     ev.preventDefault();
     var formData = new FormData();
     formData.append('email', document.getElementById('form_email').value);
+    formData.append('name', document.getElementById('form_name').value);
+    formData.append('lName', document.getElementById('form_lastname').value);
+    formData.append('need', document.getElementById('form_need').value);
+    formData.append('message', document.getElementById('form_message').value);
 
     fetch('/mail/mail.php',
     {
       body: formData,
-      method: "post"
+      method: "POST"
     }).then(function(response) {
-      console.log(JSON.stringify(response));
+      console.log(response);
+      return response.json();
+    }).then(function(body){
+        if(body.isSuccess){
+          var succesMessage = "Contact form successfully submitted. Thank you, I will get back to you soon!"
+          $("#contact-form").find(".messages").addClass('alert alert-success').append("<p>"+ succesMessage +"</p>")
+          $('#contact-form')[0].reset();
+        }
+        else{
+          var failureMessage = "There was a error please try filling the form again"
+          $("#contact-form").find(".messages").addClass('alert alert-danger').append("<p>"+ failureMessage +"</p>")
+        }
     });
   });
 }
