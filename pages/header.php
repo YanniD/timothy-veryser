@@ -5,14 +5,14 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="/public/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="/public/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="/public/css/screenHeader.css">
-    <link rel="stylesheet" type="text/css" href="/public/css/screenfooter.css">
-    <link rel="stylesheet" type="text/css" href="/public/css/screenMenu.css">
-    <link rel="stylesheet" type="text/css" href="/public/css/screenabout.css">
-    <link rel="stylesheet" type="text/css" href="/public/css/screenVideos.css">
-    <link rel="stylesheet" type="text/css" href="/public/css/screenContact.css">
+    <link rel="stylesheet" type="text/css" href="/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/screenHeader.css">
+    <link rel="stylesheet" type="text/css" href="/css/screenfooter.css">
+    <link rel="stylesheet" type="text/css" href="/css/screenMenu.css">
+    <link rel="stylesheet" type="text/css" href="/css/screenabout.css">
+    <link rel="stylesheet" type="text/css" href="/css/screenVideos.css">
+    <link rel="stylesheet" type="text/css" href="/css/screenContact.css">
 
 
     <title>Document</title>

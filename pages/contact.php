@@ -10,7 +10,27 @@
             <!-- We're going to place the form here in the next step -->
             <form id="contact-form" method="post" action="/index.php" role="form">
 
-                <div class="messages"></div>
+                <div class="messages">
+                    <?php if (isset($_SESSION['messageOk'])) {
+                          ?><p>
+                            <?php echo $_SESSION['messageOk']; ?>
+                          </p>
+                          <?php
+                           session_unset();
+                          session_destroy();
+                        }
+                        if(isset($_SESSION["messageBad"])){
+                          ?> <p>
+
+                            <?php   echo $_SESSION['messageBad']; ?>
+                          </p>
+                          <?php
+
+                          session_unset();
+                         session_destroy();
+                        }
+                        ?>
+                </div>
 
                 <div class="controls">
 
@@ -50,8 +70,8 @@
                                 <select id="form_need" name="need" class="form-control" required="required"
                                         data-error="Geef uw keuze op aub.">
                                     <option value=""></option>
-                                    <option value="Request quotation">Informatie</option>
-                                    <option value="Request order status">Timothy boeken</option>
+                                    <option value="Aanvraag informatie">Informatie</option>
+                                    <option value="Aanvraag boeking">Timothy boeken</option>
                                 </select>
                                 <div class="help-block with-errors"></div>
                             </div>
@@ -68,7 +88,7 @@
                             </div>
                         </div>
                         <div class="col-md-12">
-                            <input type="submit" class="btn btn-success btn-send" value="Send message">
+                            <input type="submit" name='submit' class="btn btn-success btn-send" value="Send message">
                         </div>
                     </div>
                     <div class="row">
@@ -77,6 +97,7 @@
                                 <strong>*</strong> These fields are required.
                             </p>
                         </div>
+
                     </div>
                 </div>
 

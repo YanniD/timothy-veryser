@@ -8,10 +8,10 @@
               <ul class="list-unstyled text-center justify-content-center">
                 <h2 class="text-center text-uppercase footer-text-color ">Social</h2>
                 <li class="link-top">
-                  <a class="footer-text-color" href="#!"><img class="image-size" src="/public/assets/facebook.png" alt="facebook"> @TimothyVeryserOpera</a>
+                  <a class="footer-text-color" href="#!"><img class="image-size" src="/assets/facebook.png" alt="facebook"> @TimothyVeryserOpera</a>
                 </li>
                 <li class="link-top">
-                  <a class="footer-text-color" href="#!"><img class="image-size" src="/public/assets/insta.png" alt=""> Very_timothy</a>
+                  <a class="footer-text-color" href="#!"><img class="image-size" src="/assets/insta.png" alt=""> Very_timothy</a>
                 </li>
               </ul>
             </div>
@@ -34,7 +34,7 @@
     </footer>
     <!-- Footer -->
 
-<script src="/public/js/jquery-3.2.1.js"></script>
-<script src="/public/js/bootstrap.min.js"></script>
-<script src="/public/js/script.js"></script>
+<script src="/js/jquery-3.2.1.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/script.js"></script>
 </body>

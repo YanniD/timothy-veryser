@@ -2,7 +2,7 @@
 <div class="container">
   <div class="row">
     <div class="col-lg-6 col-xs-0 about-height-img">
-      <img id='timothyvinyl' class="img-fluid" src="/public/assets/vinyl_timo.png" alt="vinyl" title='vinyl timothy'>
+      <img id='timothyvinyl' class="img-fluid" src="/assets/vinyl_timo.png" alt="vinyl" title='vinyl timothy'>
     </div>
 
     <div class="col-lg-6 col-xs-12 about-height text-about">
