@@ -12,12 +12,13 @@
 /*
  *  CONFIGURE EVERYTHING HERE
  */
+ // an email address that will be in the From field of the email.
+ $fromEmail = '';
+ $fromName = '';
 
-// an email address that will be in the From field of the email.
-$from = '';
-
-// an email address that will receive the email with the output of the form
-$sendTo = 'schellens.tibo@outlook.com';
+ // an email address that will receive the email with the output of the form
+ $sendToEmail = 'schellens.tibo@outlook.com';
+ $sendToName = 'Timothy';
 
 // subject of the email
 $subject = 'New message from contact form';
@@ -44,14 +45,12 @@ try
 
     if(count($_POST) == 0) throw new \Exception('Form is empty');
 
-    $emailText = "You have a new message from your contact form\n=============================\n";
-
-    foreach ($_POST as $key => $value) {
-        // If the field exists in the $fields array, include it in the email
-        if (isset($fields[$key])) {
-            $emailText .= "$fields[$key]: $value\n";
-        }
+foreach ($_POST as $key => $value) {
+    // If the field exists in the $fields array, include it in the email
+    if (isset($fields[$key])) {
+        $emailTextHtml .= "<tr><th>$fields[$key]</th><td>$value</td></tr>";
     }
+}
 
     // All the neccessary headers for the email.
     $headers = array('Content-Type: text/plain; charset="UTF-8";',
