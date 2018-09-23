@@ -1,8 +1,40 @@
 .videos-height{
   margin-top: 2%;
   color:white;
+  margin-bottom:2%;
 }
 
 .videos-bg{
-  background-color: green;
+  background-color:#A4C4BE;
+}
+
+.carousel-item {
+  text-align: center
+}
+
+.videos-height h2{
+  margin-bottom: 2%;
+}
+
+.carousel-indicators {
+  bottom:-50px;
+}
+
+.carousel-inner {
+   margin-bottom:50px;
+}
+
+.iframe-container {
+  overflow: hidden;
+  padding-top: 54%;
+  position: relative;
+}
+
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
 }
