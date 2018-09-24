@@ -35,8 +35,6 @@
     <!-- Footer -->
 
 <script src="/js/jquery-3.2.1.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/1.4.3/jquery.scrollTo.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
 <script src="/js/script.js"></script>
-<script src="/js/scrolling-nav.js"></script>
 </body>
