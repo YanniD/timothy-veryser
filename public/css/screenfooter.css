@@ -23,7 +23,10 @@
 .link-top{
   margin-top: 1rem;
 }
-
+a:hover{
+  text-decoration: none;
+  color: white;
+}
 @media (max-width: 767px)
 {
     .credit-height{
