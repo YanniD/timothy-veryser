@@ -8,9 +8,9 @@
             <p>Voor vragen of boekingen kunt u mij hier contacteren</p>
 
             <!-- We're going to place the form here in the next step -->
-            <form id="contact-form" method="post" action="/index.php" role="form">
+            <form id="contact-form" method="get" action="/index.php" role="form">
 
-                <div class="messages"></div>
+                <div id="messages"></div>
 
                 <div class="controls">
 
@@ -67,13 +67,17 @@
                                 <div class="help-block with-errors"></div>
                             </div>
                         </div>
+                      </div>
+                      <div class="row">
                         <div class="col-md-12">
-                          
+                          <div class="g-recaptcha" id='recaptcha' data-sitekey="6LfjvHEUAAAAAA333NheoA5EeqvwjAfnhK7SV2TN"></div>
                         </div>
+                      </div>
+
                         <div class="col-md-12">
                             <input type="submit" name='submit' class="btn btn-success btn-send" value="Send message">
                         </div>
-                    </div>
+
                     <div class="row">
                         <div class="col-md-12">
                             <p class="text-muted">

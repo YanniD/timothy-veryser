@@ -5,6 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src='https://www.google.com/recaptcha/api.js'></script>
     <link rel="stylesheet" type="text/css" href="/css/reset.css">
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/css/screenHeader.css">
@@ -13,7 +14,7 @@
     <link rel="stylesheet" type="text/css" href="/css/screenabout.css">
     <link rel="stylesheet" type="text/css" href="/css/screenVideos.css">
     <link rel="stylesheet" type="text/css" href="/css/screenContact.css">
-    <script src='https://www.google.com/recaptcha/api.js'></script>
+
 
 
     <title>Document</title>

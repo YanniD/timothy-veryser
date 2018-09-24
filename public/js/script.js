@@ -2,6 +2,7 @@ console.log("js loaded");
 
 $( document ).ready(function() {
     console.log( "jquery ready!" );
+
     init();
 });
 
@@ -10,29 +11,37 @@ $( document ).ready(function() {
 function init() {
   document.getElementById('contact-form').addEventListener('submit', function(ev) {
     ev.preventDefault();
+
     var formData = new FormData();
+
+    var reCaptcha = grecaptcha.getResponse();
+    console.log(reCaptcha);
     formData.append('email', document.getElementById('form_email').value);
     formData.append('name', document.getElementById('form_name').value);
     formData.append('lName', document.getElementById('form_lastname').value);
     formData.append('need', document.getElementById('form_need').value);
     formData.append('message', document.getElementById('form_message').value);
+    formData.append("g-recaptcha-response",reCaptcha);
 
     fetch('/mail/mail.php',
     {
       body: formData,
       method: "POST"
+
     }).then(function(response) {
-      console.log(response);
       return response.json();
     }).then(function(body){
+    $("#contact-form").find("#messages").removeClass().children().remove();
         if(body.isSuccess){
+
           var succesMessage = "Contact form successfully submitted. Thank you, I will get back to you soon!"
-          $("#contact-form").find(".messages").addClass('alert alert-success').append("<p>"+ succesMessage +"</p>")
+          $("#contact-form").find("#messages").addClass('alert alert-success').append("<p>"+ succesMessage +"</p>")
           $('#contact-form')[0].reset();
         }
         else{
-          var failureMessage = "There was a error please try filling the form again"
-          $("#contact-form").find(".messages").addClass('alert alert-danger').append("<p>"+ failureMessage +"</p>")
+          var failureMessage = body.message;
+          console.log(failureMessage);
+          $("#contact-form").find("#messages").addClass('alert alert-danger').append("<p>"+ failureMessage +"</p>")
         }
     });
   });
