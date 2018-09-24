@@ -16,7 +16,7 @@ html{
     width:auto;
     overflow:hidden; /*hide bounds of image */
      margin:0;   /*reset margin of figure tag*/
-     padding-top: 47px;
+  
   }
   figure img{
      width:100%; /*make image streatch*/

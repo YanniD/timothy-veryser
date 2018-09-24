@@ -2,11 +2,33 @@ console.log("js loaded");
 
 $( document ).ready(function() {
     console.log( "jquery ready!" );
-
+    $('body').scrollspy({ target: '#navbar' })
+    $("#navbar a").on('click', scrolling(event)) {
     init();
 });
 
+function scrolling(event) {
+  if (this.hash !== "") {
 
+    // Prevent default anchor click behavior
+    event.preventDefault();
+
+    // Store hash
+    var hash = this.hash;
+
+    // Using jQuery's animate() method to add smooth page scroll
+    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 800, function(){
+
+    // Add hash (#) to URL when done scrolling (default click behavior)
+      window.location.hash = hash;
+    });
+
+  } // End if
+
+}
 
 function init() {
   document.getElementById('contact-form').addEventListener('submit', function(ev) {

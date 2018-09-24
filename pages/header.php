@@ -19,9 +19,9 @@
 
     <title>Document</title>
 </head>
-<body>
+<body data-spy="scroll" data-target="#navbar">
 <header>
-    <nav class="navbar-expand-lg py-3 navbar-nav fixed-top navbar-light bg-header">
+    <nav  id='navbar' class="navbar-expand-lg py-3 navbar-nav fixed-top navbar-light bg-header">
 
   <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -30,16 +30,16 @@
   <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item ml-auto ">
-        <a class="nav-link colour-text-header" href="#">menu</a>
+        <a class="nav-link colour-text-header" href="#menu">menu</a>
       </li>
       <li class="nav-item ml-auto">
-        <a class="nav-link colour-text-header" href="#">over</a>
+        <a class="nav-link colour-text-header" href="#over">over</a>
       </li>
       <li class="nav-item ml-auto">
-        <a class="nav-link colour-text-header" href="#">video's</a>
+        <a class="nav-link colour-text-header" href="#video">video's</a>
       </li>
       <li class="nav-item ml-auto">
-        <a class="nav-link colour-text-header" href="#">boeken</a>
+        <a class="nav-link colour-text-header" href="#contact">contact</a>
       </li>
     </ul>
 

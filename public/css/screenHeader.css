@@ -9,3 +9,15 @@
 .navbar-light .navbar-nav .nav-link{
   color:white;
 }
+
+
+@media (max-width: 767px)
+{
+    header{
+      display:none;
+    }
+}
+
+body {
+  position: relative;
+}
