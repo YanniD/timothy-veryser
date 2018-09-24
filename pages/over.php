@@ -10,7 +10,16 @@
 
     <div class="col-lg-6 col-xs-12 about-height text-about">
       <h1 class='text-center'>Over Timothy</h1>
-      <p class='text-left'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class='text-left'>Gedreven door opera veroverd Timothy iedereen met zijn fantastische stem. U kunt Timothy boeken voor alle soorten feestelijkheden: </br>
+        <ul>
+          <li>- Trouwen</li>
+          <li>- Zakenfeesten</li>
+          <li>- Verjaardagen</li>
+          <li>- benefiet feesten</li>
+          <li>- ...</li>
+        </ul>
+        Voor meer info kunt u een mailtje sturen via het contact formulier op het einde van deze site.
+      </p>
     </div>
 
   </div>
