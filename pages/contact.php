@@ -11,8 +11,6 @@
               <!-- We're going to place the form here in the next step -->
               <form id="contact-form" method="get" action="/index.php" role="form">
 
-
-
                   <div class="controls">
 
                       <div class="row">
@@ -84,7 +82,6 @@
                               <p class="text-muted">
                                   <strong>*</strong> These fields are required.
                               </p>
-
                           </div>
 
                       </div>

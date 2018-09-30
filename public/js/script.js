@@ -1,19 +1,12 @@
-console.log("js loaded");
-
 $( document ).ready(function() {
-    console.log( "jquery ready!" );
     $('body').scrollspy({ target: '#navbar' })
     $("#navbar a").on('click', function(event) {
-
     if (this.hash !== "") {
-
       event.preventDefault();
       var hash = this.hash;
-
       $('html, body').animate({
         scrollTop: $(hash).offset().top -0
       }, 800, function(){
-
         window.location.hash = hash;
       });
     }
@@ -26,11 +19,8 @@ $( document ).ready(function() {
 function init() {
   document.getElementById('contact-form').addEventListener('submit', function(ev) {
     ev.preventDefault();
-
     var formData = new FormData();
-
     var reCaptcha = grecaptcha.getResponse();
-    console.log(reCaptcha);
     formData.append('email', document.getElementById('form_email').value);
     formData.append('name', document.getElementById('form_name').value);
     formData.append('lName', document.getElementById('form_lastname').value);
@@ -55,7 +45,6 @@ function init() {
         }
         else{
           var failureMessage = body.message;
-          console.log(failureMessage);
           $("#contact-form").find("#messages").addClass('alert alert-danger').append("<p>"+ failureMessage +"</p>")
         }
     });
