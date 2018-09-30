@@ -3,8 +3,7 @@
             <!-- Grid column -->
             <div class="row justify-content-center ">
 
-            <div class="col-9 col-sm-7 col-lg-7 ml-auto">
-              <div class="d-flex">
+            <div class="col-9 col-sm-7 col-lg-7 social-media">
               <ul class="list-unstyled text-center justify-content-center">
                 <h2 class="text-center text-uppercase footer-text-color ">Social</h2>
                 <li class="link-top">
@@ -17,13 +16,9 @@
             </div>
             </div>
 
-        </div>
-        <div class="row ">
-        <div class="col-12 col-sm-7 col-lg-12 ml-auto">
-          <div class="footer-copyright text-center py-3 footer-text-color credit-height">© 2018 Copyright: Alctera Graphics Design.
-          </div>
-        </div>
-      </div>
+
+          <div class="align-mid">© 2018 Copyright: Alctera Graphics Design</div>
+
 
       <!-- Copyright -->
 

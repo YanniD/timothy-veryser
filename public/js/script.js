@@ -49,7 +49,7 @@ function init() {
     $("#contact-form").find("#messages").removeClass().children().remove();
         if(body.isSuccess){
 
-          var succesMessage = "Contact form successfully submitted. Thank you, I will get back to you soon!"
+          var succesMessage = "Je email is verstuurd. Bedankt, Ik neem spoedig contact met je op!"
           $("#contact-form").find("#messages").addClass('alert alert-success').append("<p>"+ succesMessage +"</p>")
           $('#contact-form')[0].reset();
         }

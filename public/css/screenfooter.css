@@ -27,6 +27,16 @@ a:hover{
   text-decoration: none;
   color: white;
 }
+
+.align-mid{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+  font-size: 0.9rem;
+  color: white
+}
+
 @media (max-width: 767px)
 {
     .credit-height{
